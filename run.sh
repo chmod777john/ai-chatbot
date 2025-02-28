@@ -11,3 +11,7 @@ ollama run deepseek-r1:32b
 
 
 
+ssh -CNg -L 6006:127.0.0.1:6006 root@connect.nmb1.seetacloud.com -p 34721
+
+Q4/Ivh8HCDfh
+
