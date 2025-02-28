@@ -1,8 +1,15 @@
-import { openai } from '@ai-sdk/openai';
+import { openai, createOpenAI } from '@ai-sdk/openai';
+import { createDeepSeek  } from '@ai-sdk/deepseek';
+const deepseek = createDeepSeek({
+  // baseURL: '',
+  apiKey: 'sk-9e5f87ef885e43f1bce4c8f35ce309c6'
+})
+
 import { fireworks } from '@ai-sdk/fireworks';
 import {
   customProvider,
   extractReasoningMiddleware,
+  LanguageModel,
   wrapLanguageModel,
 } from 'ai';
 
@@ -18,6 +25,7 @@ export const myProvider = customProvider({
     }),
     'title-model': openai('gpt-4-turbo'),
     'artifact-model': openai('gpt-4o-mini'),
+    'ds': deepseek('deepseek-chat') as LanguageModel
   },
   imageModels: {
     'small-model': openai.image('dall-e-2'),

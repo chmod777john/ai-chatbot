@@ -33,6 +33,7 @@ export const login = async (
 
     return { status: 'success' };
   } catch (error) {
+    console.log('fuck you', error)
     if (error instanceof z.ZodError) {
       return { status: 'invalid_data' };
     }
@@ -55,7 +56,9 @@ export const register = async (
   _: RegisterActionState,
   formData: FormData,
 ): Promise<RegisterActionState> => {
+  console.log('fuc start')
   try {
+    console.log('are you fu')
     const validatedData = authFormSchema.parse({
       email: formData.get('email'),
       password: formData.get('password'),
@@ -75,6 +78,7 @@ export const register = async (
 
     return { status: 'success' };
   } catch (error) {
+    console.log("fuck you error", error)
     if (error instanceof z.ZodError) {
       return { status: 'invalid_data' };
     }
