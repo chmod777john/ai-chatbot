@@ -61,6 +61,7 @@ export async function POST(request: Request) {
 
   return createDataStreamResponse({
     execute: (dataStream) => {
+      console.log('about to do it');
       const result = streamText({
         model: myProvider.languageModel(selectedChatModel),
         system: systemPrompt({ selectedChatModel }),
@@ -77,15 +78,15 @@ export async function POST(request: Request) {
               ],
         experimental_transform: smoothStream({ chunking: 'word' }),
         experimental_generateMessageId: generateUUID,
-        tools: {
-          getWeather,
-          createDocument: createDocument({ session, dataStream }),
-          updateDocument: updateDocument({ session, dataStream }),
-          requestSuggestions: requestSuggestions({
-            session,
-            dataStream,
-          }),
-        },
+        // tools: {
+        //   getWeather,
+        //   createDocument: createDocument({ session, dataStream }),
+        //   updateDocument: updateDocument({ session, dataStream }),
+        //   requestSuggestions: requestSuggestions({
+        //     session,
+        //     dataStream,
+        //   }),
+        // },
         onFinish: async ({ response, reasoning }) => {
           if (session.user?.id) {
             try {
@@ -120,8 +121,10 @@ export async function POST(request: Request) {
         sendReasoning: true,
       });
     },
-    onError: () => {
-      return 'Oops, an error occured!';
+    onError: (error) => {
+      
+      console.log(error)
+      return JSON.stringify(error);
     },
   });
 }
