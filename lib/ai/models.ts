@@ -1,8 +1,18 @@
-import { openai, createOpenAI } from '@ai-sdk/openai';
+import {  createOpenAI } from '@ai-sdk/openai';
 import { createDeepSeek  } from '@ai-sdk/deepseek';
 const deepseek = createDeepSeek({
-  // baseURL: '',
+  baseURL: 'http://localhost:6006/v1',
   apiKey: 'sk-9e5f87ef885e43f1bce4c8f35ce309c6'
+})
+
+import { createOllama } from 'ollama-ai-provider';
+const ollama = createOllama({
+  baseURL: 'http://localhost:6006/v1'
+})
+
+const openai = createOpenAI({
+  baseURL: 'http://localhost:6006/v1',
+  apiKey: 'ollama'
 })
 
 import { fireworks } from '@ai-sdk/fireworks';
@@ -25,7 +35,7 @@ export const myProvider = customProvider({
     }),
     'title-model': openai('gpt-4-turbo'),
     'artifact-model': openai('gpt-4o-mini'),
-    'ds': deepseek('deepseek-chat') as LanguageModel
+    'ds': openai('deepseek-r1:32b') as LanguageModel
   },
   imageModels: {
     'small-model': openai.image('dall-e-2'),
