@@ -1,38 +1,1734 @@
 import { ArtifactKind } from '@/components/artifact';
 
 export const artifactsPrompt = `
-Artifacts is a special user interface mode that helps users with writing, editing, and other content creation tasks. When artifact is open, it is on the right side of the screen, while the conversation is on the left side. When creating or updating documents, changes are reflected in real-time on the artifacts and visible to the user.
-
-When asked to write code, always use artifacts. When writing code, specify the language in the backticks, e.g. \`\`\`python\`code here\`\`\`. The default language is Python. Other languages are not yet supported, so let the user know if they request a different language.
-
-DO NOT UPDATE DOCUMENTS IMMEDIATELY AFTER CREATING THEM. WAIT FOR USER FEEDBACK OR REQUEST TO UPDATE IT.
-
-This is a guide for using artifacts tools: \`createDocument\` and \`updateDocument\`, which render content on a artifacts beside the conversation.
-
-**When to use \`createDocument\`:**
-- For substantial content (>10 lines) or code
-- For content users will likely save/reuse (emails, code, essays, etc.)
-- When explicitly requested to create a document
-- For when content contains a single code snippet
-
-**When NOT to use \`createDocument\`:**
-- For informational/explanatory content
-- For conversational responses
-- When asked to keep it in chat
-
-**Using \`updateDocument\`:**
-- Default to full document rewrites for major changes
-- Use targeted updates only for specific, isolated changes
-- Follow user instructions for which parts to modify
-
-**When NOT to use \`updateDocument\`:**
-- Immediately after creating a document
-
-Do not update document right after creating it. Wait for user feedback or request to update it.
 `;
 
 export const regularPrompt =
-  'You are a friendly assistant! Keep your responses concise and helpful.';
+  `
+File: 228.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $F\ d\ \bar{3}\ c$
+
+### 空间群编号
+
+-  228
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- F
+- 面心
+
+### 熊夫利斯符号
+
+- $O_h^{8}$
+
+### 空间群符号完整形式
+
+- $F\ {4_1}/d\ \bar{3}\ 2/c$
+
+### 空间群所属点群
+
+- $m\ \bar{3}\ m$
+
+### Patterson 对称
+
+- $F\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- 23
+- $\bar{3}$
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 210.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $F\ 4_1\ 3\ 2$
+
+### 空间群编号
+
+-  210
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- F
+- 面心
+
+### 熊夫利斯符号
+
+- $O^{4}$
+
+### 空间群符号完整形式
+
+- $F\ 4_1\ 3\ 2$
+
+### 空间群所属点群
+
+- $4\ 3\ 2$
+
+### Patterson 对称
+
+- $F\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- 23
+
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 213.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $P\ 4_1\ 3\ 2$
+
+### 空间群编号
+
+-  213
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- P
+- 初基
+
+### 熊夫利斯符号
+
+- $O^{7}$
+
+### 空间群符号完整形式
+
+- $P\ 4_1\ 3\ 2$
+
+### 空间群所属点群
+
+- $4\ 3\ 2$
+
+### Patterson 对称
+
+- $P\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- 
+
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 214.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $I\ 4_1\ 3\ 2$
+
+### 空间群编号
+
+-  214
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- I
+- 体心
+
+### 熊夫利斯符号
+
+- $O^{8}$
+
+### 空间群符号完整形式
+
+- $I\ 4_1\ 3\ 2$
+
+### 空间群所属点群
+
+- $4\ 3\ 2$
+
+### Patterson 对称
+
+- $I\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- 
+
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 227.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $F\ d\ \bar{3}\ m$
+
+### 空间群编号
+
+-  227
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- F
+- 面心
+
+### 熊夫利斯符号
+
+- $O_h^{7}$
+
+### 空间群符号完整形式
+
+- $F\ {4_1}/d\ \bar{3}\ 2/m$
+
+### 空间群所属点群
+
+- $m\ \bar{3}\ m$
+
+### Patterson 对称
+
+- $F\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- $\bar{4}3m$
+- $\bar{3}m$
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 216.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $F\ \bar{4}\ 3\ m$
+
+### 空间群编号
+
+-  216
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- F
+- 面心
+
+### 熊夫利斯符号
+
+- $T_d^{2}$
+
+### 空间群符号完整形式
+
+- $F\ \bar{4}\ 3\ m$
+
+### 空间群所属点群
+
+- $\bar{4}\ 3\ m$
+
+### Patterson 对称
+
+- $F\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- $\bar{4}3m$
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 197.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $I \ 2 \ 3$
+
+### 空间群编号
+
+-  197
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- I
+- 体心
+
+### 熊夫利斯符号
+
+- $T^{3}$
+
+### 空间群符号完整形式
+
+- $I  \ 2 \ 3$
+
+### 空间群所属点群
+
+- $2 \ 3$
+
+### Patterson 对称
+
+- $I \ m\ \bar{3}$
+
+---
+
+### 原点
+
+- 23
+
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 201.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $P \ n \ \bar{3}$
+
+### 空间群编号
+
+-  201
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- P
+- 初基
+
+### 熊夫利斯符号
+
+- $T_h^{2}$
+
+### 空间群符号完整形式
+
+- $P \ 2 / n \ \bar{3}$
+
+### 空间群所属点群
+
+- $m \ \bar{3}$
+
+### Patterson 对称
+
+- $P \ m \ \bar{3}$
+
+---
+
+### 原点
+
+- 23
+- $\bar{3}$
+
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 199.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $I \ 2_1 \ 3$
+
+### 空间群编号
+
+-  199
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- I
+- 体心
+
+### 熊夫利斯符号
+
+- $T^{5}$
+
+### 空间群符号完整形式
+
+- $I \ 2_1 \ 3$
+
+### 空间群所属点群
+
+- $2 \ 3$
+
+### Patterson 对称
+
+- $I \ m\ \bar{3}$
+
+---
+
+### 原点
+
+- 
+
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 206.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $I\ a \ \bar{3}$
+
+### 空间群编号
+
+-  206
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- I
+- 体心
+
+### 熊夫利斯符号
+
+- $T_h^{7}$
+
+### 空间群符号完整形式
+
+- $I\ {2_1}/a \ \bar{3}$
+
+### 空间群所属点群
+
+- $m \ \bar{3}$
+
+### Patterson 对称
+
+- $I\ m \ \bar{3}$
+
+---
+
+### 原点
+
+- $\bar{3}$
+
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 222.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $P\ n\ \bar{3}\ n$
+
+### 空间群编号
+
+-  222
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- P
+- 初基
+
+### 熊夫利斯符号
+
+- $O_h^{2}$
+
+### 空间群符号完整形式
+
+- $P\ 4/n\ \bar{3}\ 2/n$
+
+### 空间群所属点群
+
+- $m\ \bar{3}\ m$
+
+### Patterson 对称
+
+- $P\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- 432
+- $\bar{3}$
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 225.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $F\ m\ \bar{3}\ m$
+
+### 空间群编号
+
+-  225
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- F
+- 面心
+
+### 熊夫利斯符号
+
+- $O_h^{5}$
+
+### 空间群符号完整形式
+
+- $F\ 4/m\ \bar{3}\ 2/m$
+
+### 空间群所属点群
+
+- $m\ \bar{3}\ m$
+
+### Patterson 对称
+
+- $F\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- $m\bar{3}m$
+
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 209.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $F\ 4\ 3\ 2$
+
+### 空间群编号
+
+-  209
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- F
+- 面心
+
+### 熊夫利斯符号
+
+- $O^{3}$
+
+### 空间群符号完整形式
+
+- $F\ 4\ 3\ 2$
+
+### 空间群所属点群
+
+- $4\ 3\ 2$
+
+### Patterson 对称
+
+- $F\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- 432
+
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 219.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $F\ \bar{4}\ 3\ c$
+
+### 空间群编号
+
+-  219
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- F
+- 面心
+
+### 熊夫利斯符号
+
+- $T_d^{5}$
+
+### 空间群符号完整形式
+
+- $F\ \bar{4}\ 3\ c$
+
+### 空间群所属点群
+
+- $\bar{4}\ 3\ m$
+
+### Patterson 对称
+
+- $F\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- 23
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 211.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $I\ 4\ 3\ 2$
+
+### 空间群编号
+
+-  211
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- I
+- 体心
+
+### 熊夫利斯符号
+
+- $O^{5}$
+
+### 空间群符号完整形式
+
+- $I\ 4\ 3\ 2$
+
+### 空间群所属点群
+
+- $4\ 3\ 2$
+
+### Patterson 对称
+
+- $I\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- 432
+
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 207.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $P\ 4\ 3 \ 2$
+
+### 空间群编号
+
+-  207
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- P
+- 初基
+
+### 熊夫利斯符号
+
+- $O^{1}$
+
+### 空间群符号完整形式
+
+- $P\ 4\ 3\ 2$
+
+### 空间群所属点群
+
+- $4\ 3\ 2$
+
+### Patterson 对称
+
+- $P\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- 432
+
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 208.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $P\ 4_2\ 3\ 2$
+
+### 空间群编号
+
+-  208
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- P
+- 初基
+
+### 熊夫利斯符号
+
+- $O^{2}$
+
+### 空间群符号完整形式
+
+- $P\ 4_2\ 3\ 2$
+
+### 空间群所属点群
+
+- $4\ 3\ 2$
+
+### Patterson 对称
+
+- $P\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- 23
+
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 215.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $P\ \bar{4}\ 3\ m$
+
+### 空间群编号
+
+-  215
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- P
+- 初基
+
+### 熊夫利斯符号
+
+- $T_d^{1}$
+
+### 空间群符号完整形式
+
+- $P\ \bar{4}\ 3\ m$
+
+### 空间群所属点群
+
+- $\bar{4}\ 3\ m$
+
+### Patterson 对称
+
+- $P\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- $\bar{4}3m$
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 230.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $I\ a\ \bar{3}\ d$
+
+### 空间群编号
+
+-  230
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- I
+- 体心
+
+### 熊夫利斯符号
+
+- $O_h^{10}$
+
+### 空间群符号完整形式
+
+- $I\ {4_1}/a\ \bar{3}\ 2/d$
+
+### 空间群所属点群
+
+- $m\ \bar{3}\ m$
+
+### Patterson 对称
+
+- $I\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- $\bar{3}$
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 195.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $P  \ 2 \ 3$
+
+### 空间群编号
+
+-  195
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- P
+- 初基
+
+### 熊夫利斯符号
+
+- $T^{1}$
+
+### 空间群符号完整形式
+
+- $P  \ 2 \ 3$
+
+### 空间群所属点群
+
+- $2 \ 3$
+
+### Patterson 对称
+
+- $P \ m\ \bar{3}$
+
+---
+
+### 原点
+
+- 23
+
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 217.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $I\ \bar{4}\ 3\ m$
+
+### 空间群编号
+
+-  217
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- I
+- 体心
+
+### 熊夫利斯符号
+
+- $T_d^{3}$
+
+### 空间群符号完整形式
+
+- $I\ \bar{4}\ 3\ m$
+
+### 空间群所属点群
+
+- $\bar{4}\ 3\ m$
+
+### Patterson 对称
+
+- $I\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- $\bar{4}3m$
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 220.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $I\ \bar{4}\ 3\ d$
+
+### 空间群编号
+
+-  220
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- I
+- 体心
+
+### 熊夫利斯符号
+
+- $T_d^{6}$
+
+### 空间群符号完整形式
+
+- $I\ \bar{4}\ 3\ d$
+
+### 空间群所属点群
+
+- $\bar{4}\ 3\ m$
+
+### Patterson 对称
+
+- $I\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- 
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 223.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $P\ m\ \bar{3}\ n$
+
+### 空间群编号
+
+-  223
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- P
+- 初基
+
+### 熊夫利斯符号
+
+- $O_h^{3}$
+
+### 空间群符号完整形式
+
+- $P\ {4_2}/m\ \bar{3}\ 2/n$
+
+### 空间群所属点群
+
+- $m\ \bar{3}\ m$
+
+### Patterson 对称
+
+- $P\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- $m\bar{3}$
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 200.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $P \ m \ \bar{3}$
+
+### 空间群编号
+
+-  200
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- P
+- 初基
+
+### 熊夫利斯符号
+
+- $T_h^{1}$
+
+### 空间群符号完整形式
+
+- $P \ 2/m \ \bar{3}$
+
+### 空间群所属点群
+
+- $m \ \bar{3}$
+
+### Patterson 对称
+
+- $P \ m \ \bar{3}$
+
+---
+
+### 原点
+
+- $m\bar{3}$
+
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 212.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $P\ 4_3\ 3\ 2$
+
+### 空间群编号
+
+-  212
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- P
+- 初基
+
+### 熊夫利斯符号
+
+- $O^{6}$
+
+### 空间群符号完整形式
+
+- $P\ 4_3\ 3\ 2$
+
+### 空间群所属点群
+
+- $4\ 3\ 2$
+
+### Patterson 对称
+
+- $P\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- 
+
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 202.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $F \ m \ \bar{3}$
+
+### 空间群编号
+
+-  202
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- F
+- 面心
+
+### 熊夫利斯符号
+
+- $T_h^{3}$
+
+### 空间群符号完整形式
+
+- $F \ 2/m \ \bar{3}$
+
+### 空间群所属点群
+
+- $m \ \bar{3}$
+
+### Patterson 对称
+
+- $F \ m \ \bar{3}$
+
+---
+
+### 原点
+
+- $m\bar{3}$
+
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 226.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $F\ m\ \bar{3}\ c$
+
+### 空间群编号
+
+-  226
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- F
+- 面心
+
+### 熊夫利斯符号
+
+- $O_h^{6}$
+
+### 空间群符号完整形式
+
+- $F\ 4/m\ \bar{3}\ 2/c$
+
+### 空间群所属点群
+
+- $m\ \bar{3}\ m$
+
+### Patterson 对称
+
+- $F\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- $m\bar{3}$
+
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 205.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $P \ a \ \bar{3}$
+
+### 空间群编号
+
+-  205
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- P
+- 初基
+
+### 熊夫利斯符号
+
+- $T_h^{6}$
+
+### 空间群符号完整形式
+
+- $P\ {2_1}/a \ \bar{3}$
+
+### 空间群所属点群
+
+- $m \ \bar{3}$
+
+### Patterson 对称
+
+- $P \ m \ \bar{3}$
+
+---
+
+### 原点
+
+- $\bar{3}$
+
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 224.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $P\ n\ \bar{3}\ m$
+
+### 空间群编号
+
+-  224
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- P
+- 初基
+
+### 熊夫利斯符号
+
+- $O_h^{4}$
+
+### 空间群符号完整形式
+
+- $P\ {4_2}/n\ \bar{3}\ 2/m$
+
+### 空间群所属点群
+
+- $m\ \bar{3}\ m$
+
+### Patterson 对称
+
+- $P\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- $\bar{4}3m$
+- $\bar{3}m$
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 218.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $P\ \bar{4}\ 3\ n$
+
+### 空间群编号
+
+-  218
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- P
+- 初基
+
+### 熊夫利斯符号
+
+- $T_d^{4}$
+
+### 空间群符号完整形式
+
+- $P\ \bar{4}\ 3\ n$
+
+### 空间群所属点群
+
+- $\bar{4}\ 3\ m$
+
+### Patterson 对称
+
+- $P\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- 23
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 229.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $I\ m\ \bar{3}\ m$
+
+### 空间群编号
+
+-  229
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- F
+- 面心
+
+### 熊夫利斯符号
+
+- $O_h^{9}$
+
+### 空间群符号完整形式
+
+- $I\ 4/m\ \bar{3}\ 2/m$
+
+### 空间群所属点群
+
+- $m\ \bar{3}\ m$
+
+### Patterson 对称
+
+- $I\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- $m\bar{3}m$
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 196.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $F \ 2 \ 3$
+
+### 空间群编号
+
+-  196
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- F
+- 面心
+
+### 熊夫利斯符号
+
+- $T^{2}$
+
+### 空间群符号完整形式
+
+- $F  \ 2 \ 3$
+
+### 空间群所属点群
+
+- $2 \ 3$
+
+### Patterson 对称
+
+- $F \ m\ \bar{3}$
+
+---
+
+### 原点
+
+- 23
+
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 203.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $F \ d \ \bar{3}$
+
+### 空间群编号
+
+-  203
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- F
+- 面心
+
+### 熊夫利斯符号
+
+- $T_h^{4}$
+
+### 空间群符号完整形式
+
+- $F \ 2/d \ \bar{3}$
+
+### 空间群所属点群
+
+- $m \ \bar{3}$
+
+### Patterson 对称
+
+- $F \ m \ \bar{3}$
+
+---
+
+### 原点
+
+- 23
+- $\bar{3}$
+
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 198.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $P \ 2_1 \ 3$
+
+### 空间群编号
+
+-  198
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- P
+- 初基
+
+### 熊夫利斯符号
+
+- $T^{4}$
+
+### 空间群符号完整形式
+
+- $P \ 2_1 \ 3$
+
+### 空间群所属点群
+
+- $2 \ 3$
+
+### Patterson 对称
+
+- $P \ m\ \bar{3}$
+
+---
+
+### 原点
+
+- 3 [1 1 1]
+
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 204.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $I \ m \ \bar{3}$
+
+### 空间群编号
+
+-  204
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- I
+- 体心
+
+### 熊夫利斯符号
+
+- $T_h^{5}$
+
+### 空间群符号完整形式
+
+- $I \ 2/m \ \bar{3}$
+
+### 空间群所属点群
+
+- $m \ \bar{3}$
+
+### Patterson 对称
+
+- $I \ m \ \bar{3}$
+
+---
+
+### 原点
+
+- $m\bar{3}$
+
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+File: 221.md
+Content:
+
+
+## 空间群信息
+
+### 空间群符号
+
+- $P\ m\ \bar{3}\ m$
+
+### 空间群编号
+
+-  221
+
+### 七大晶系类型
+
+- Cubic
+
+- 立方晶系
+
+### 有心化类型
+
+- P
+- 初基
+
+### 熊夫利斯符号
+
+- $O_h^{1}$
+
+### 空间群符号完整形式
+
+- $P\ 4/m\ \bar{3}\ 2/m$
+
+### 空间群所属点群
+
+- $m\ \bar{3}\ m$
+
+### Patterson 对称
+
+- $P\ m\ \bar{3}\ m$
+
+---
+
+### 原点
+
+- $m\bar{3}m$
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
+
+
+
+  `;
 
 export const systemPrompt = ({
   selectedChatModel,
@@ -46,36 +1742,10 @@ export const systemPrompt = ({
   }
 };
 
-export const codePrompt = `
-You are a Python code generator that creates self-contained, executable code snippets. When writing code:
-
-1. Each snippet should be complete and runnable on its own
-2. Prefer using print() statements to display outputs
-3. Include helpful comments explaining the code
-4. Keep snippets concise (generally under 15 lines)
-5. Avoid external dependencies - use Python standard library
-6. Handle potential errors gracefully
-7. Return meaningful output that demonstrates the code's functionality
-8. Don't use input() or other interactive functions
-9. Don't access files or network resources
-10. Don't use infinite loops
-
-Examples of good snippets:
-
-\`\`\`python
-# Calculate factorial iteratively
-def factorial(n):
-    result = 1
-    for i in range(1, n + 1):
-        result *= i
-    return result
-
-print(f"Factorial of 5 is: {factorial(5)}")
-\`\`\`
-`;
+export const codePrompt = ``;
 
 export const sheetPrompt = `
-You are a spreadsheet creation assistant. Create a spreadsheet in csv format based on the given prompt. The spreadsheet should contain meaningful column headers and data.
+
 `;
 
 export const updateDocumentPrompt = (

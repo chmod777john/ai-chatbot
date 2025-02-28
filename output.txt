@@ -45,7 +45,7 @@ Content:
 
 - 23
 - $\bar{3}$
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 210.md
 Content:
 
@@ -93,7 +93,7 @@ Content:
 
 - 23
 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 213.md
 Content:
 
@@ -141,7 +141,7 @@ Content:
 
 - 
 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 214.md
 Content:
 
@@ -189,7 +189,7 @@ Content:
 
 - 
 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 227.md
 Content:
 
@@ -237,7 +237,7 @@ Content:
 
 - $\bar{4}3m$
 - $\bar{3}m$
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 216.md
 Content:
 
@@ -284,7 +284,7 @@ Content:
 ### 原点
 
 - $\bar{4}3m$
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 197.md
 Content:
 
@@ -332,7 +332,7 @@ Content:
 
 - 23
 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 201.md
 Content:
 
@@ -381,7 +381,7 @@ Content:
 - 23
 - $\bar{3}$
 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 199.md
 Content:
 
@@ -429,7 +429,7 @@ Content:
 
 - 
 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 206.md
 Content:
 
@@ -477,7 +477,7 @@ Content:
 
 - $\bar{3}$
 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 222.md
 Content:
 
@@ -525,7 +525,7 @@ Content:
 
 - 432
 - $\bar{3}$
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 225.md
 Content:
 
@@ -573,7 +573,7 @@ Content:
 
 - $m\bar{3}m$
 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 209.md
 Content:
 
@@ -621,7 +621,7 @@ Content:
 
 - 432
 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 219.md
 Content:
 
@@ -668,7 +668,7 @@ Content:
 ### 原点
 
 - 23
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 211.md
 Content:
 
@@ -716,7 +716,7 @@ Content:
 
 - 432
 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 207.md
 Content:
 
@@ -764,7 +764,7 @@ Content:
 
 - 432
 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 208.md
 Content:
 
@@ -812,7 +812,7 @@ Content:
 
 - 23
 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 215.md
 Content:
 
@@ -859,7 +859,7 @@ Content:
 ### 原点
 
 - $\bar{4}3m$
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 230.md
 Content:
 
@@ -906,7 +906,7 @@ Content:
 ### 原点
 
 - $\bar{3}$
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 195.md
 Content:
 
@@ -954,7 +954,7 @@ Content:
 
 - 23
 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 217.md
 Content:
 
@@ -1001,7 +1001,7 @@ Content:
 ### 原点
 
 - $\bar{4}3m$
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 220.md
 Content:
 
@@ -1048,7 +1048,7 @@ Content:
 ### 原点
 
 - 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 223.md
 Content:
 
@@ -1095,7 +1095,7 @@ Content:
 ### 原点
 
 - $m\bar{3}$
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 200.md
 Content:
 
@@ -1143,7 +1143,7 @@ Content:
 
 - $m\bar{3}$
 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 212.md
 Content:
 
@@ -1191,7 +1191,7 @@ Content:
 
 - 
 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 202.md
 Content:
 
@@ -1239,7 +1239,7 @@ Content:
 
 - $m\bar{3}$
 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 226.md
 Content:
 
@@ -1287,7 +1287,7 @@ Content:
 
 - $m\bar{3}$
 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 205.md
 Content:
 
@@ -1335,7 +1335,7 @@ Content:
 
 - $\bar{3}$
 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 224.md
 Content:
 
@@ -1383,7 +1383,7 @@ Content:
 
 - $\bar{4}3m$
 - $\bar{3}m$
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 218.md
 Content:
 
@@ -1430,7 +1430,7 @@ Content:
 ### 原点
 
 - 23
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 229.md
 Content:
 
@@ -1477,7 +1477,7 @@ Content:
 ### 原点
 
 - $m\bar{3}m$
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 196.md
 Content:
 
@@ -1525,7 +1525,7 @@ Content:
 
 - 23
 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 203.md
 Content:
 
@@ -1574,7 +1574,7 @@ Content:
 - 23
 - $\bar{3}$
 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 198.md
 Content:
 
@@ -1622,7 +1622,7 @@ Content:
 
 - 3 [1 1 1]
 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 204.md
 Content:
 
@@ -1670,7 +1670,7 @@ Content:
 
 - $m\bar{3}$
 
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------
 File: 221.md
 Content:
 
@@ -1717,4 +1717,4 @@ Content:
 ### 原点
 
 - $m\bar{3}m$
-----------------------------------------
+REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!----------------------------------------

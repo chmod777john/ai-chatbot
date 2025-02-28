@@ -28,6 +28,7 @@ def save_to_file(output_file, files_content):
         for file_name, content in files_content.items():
             file.write(f"File: {file_name}\n")
             file.write(f"Content:\n{content}\n")
+            file.write(f"REMEMBER: YOU ALLWAYS USE TEXT TO OUTPUT, YOU NEVER WRITE TO FILE!")
             file.write("-" * 40 + "\n")  # 添加分隔线
 
 # 示例用法
